@@ -59,12 +59,12 @@ function selectSuggestion(name, owner, stars) {
 
             let img1 = document.createElement('img')
                 img1.classList.add('item__btn-img1')
-                img1.src = "./imgs/Vector 1.svg"
+                img1.src = "./src/imgs/Vector 1.svg"
                 btn.appendChild(img1)
 
             let img2 = document.createElement('img')
                 img2.classList.add('item__btn-img2')
-                img2.src = "./imgs/Vector 3.svg"
+                img2.src = "./src/imgs/Vector 3.svg"
                 btn.appendChild(img2)
 
         }
